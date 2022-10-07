@@ -1,0 +1,175 @@
+/*
+Template Name: Educational
+File: Featured Slider CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+/* ----------------------------------------------Wrapper-------------------------------------*/
+div.wrapper{
+	display:block;
+	width:100%;
+	margin:0;
+	padding:0;
+	text-align:left;
+	}
+
+div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, div.wrapper h6{
+	margin:0;
+	padding:0;
+	font-size:20px;
+	font-weight:normal;
+	line-height:normal;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	}
+
+.col0{color:#313131; background-color:#F8F7DF; border-top:5px solid #313131;}
+.col1, .col1 a{color:#8B785F; background-color:#F8F7DF;}
+.col2{color:#333333; background:url("../images/topnav_bg.gif") bottom left repeat-x #E5E2C9;}
+.col3{color:#313131; background-color:#F8F7DF;}
+.col4{color:#666666; background-color:#F8F7DF;}
+.col4 a{color:#746550; background-color:#F8F7DF;}
+.col5{color:#CCCCCC; background-color:#48282F;}
+.col5 a{color:#E5E2C9; background-color:#48282F;}
+.col6, .col6 a{color:#767772; background-color:#FFFFFF;}
+/* ----------------------------------------------End of Wrapper-------------------------------------*/
+
+#featured_slide{
+	position:relative;
+	width:960px;
+	margin:0 auto;
+	padding:20px 0 0 0;
+	}
+
+#featured_slide #featured_wrap{
+	position:relative;
+	width:940px;
+	height:290px;
+	padding:10px;
+	overflow:hidden;
+	color:#333333;
+	background-color:#FFFFFF;
+	}
+
+#featured_slide a{
+	color:#CCCCCC;
+	background-color:transparent;
+	}
+
+#featured_slide a, #featured_slide ul, #featured_slide img{
+	margin:0;
+	padding:0;
+	border:none;
+	outline:none;
+	list-style:none;
+	text-decoration:none;
+	}
+
+#featured_slide h1, #featured_slide h2, #featured_slide h3, #featured_slide h4, #featured_slide h5, #featured_slide h6{
+	margin:0 0 15px 0;
+	padding:0;
+	line-height:normal;
+	font-size:20px;
+	font-weight:normal;
+	}
+
+/* ----------------------------------------------Generalise-------------------------------------*/
+
+#featured_content, .featured_box, .featured_box img{
+	display:block;
+	width:940px;
+	height:290px;
+	}
+
+#featured_content{
+	overflow:hidden;
+	}
+
+.featured_box{
+	position:relative;
+	}
+
+/* ----------------------------------------------Content-------------------------------------*/
+
+.featured_box .floater{
+	display:block;
+	position:absolute;
+	bottom:0;
+	right:0;
+	margin:0;	
+	padding:5px 10px;
+	background-image:url("../images/trans.png");
+	}
+
+#featured_slide .floater a{
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#D6D1A9;
+	background-color:transparent;
+	}
+
+/* ----------------------------------------------Tabbed Navigation-------------------------------------*/
+
+#featured_slide .ui-tabs-hide{display:none;}
+
+#featured_slide ul#featured_tabs{
+	display:block;
+	position:absolute;
+	top:10px;
+	left:10px;
+	width:300px;
+	height:270px;
+	padding:10px;
+	overflow:hidden;
+	font-size:12px;
+	color:#CCCCCC;
+	background:url("../images/trans.png") transparent;
+	z-index:1;
+	}
+
+#featured_slide ul#featured_tabs li{
+	display:block;
+	width:300px;
+	height:53px;
+	margin:0;
+	padding:13px 0 0 0;
+	border-bottom:2px dotted #7B7774;
+	}
+
+#featured_slide ul#featured_tabs li.last{
+	border-bottom:none;
+	}
+
+#featured_slide ul#featured_tabs li a{
+	display:block;
+	width:300px;
+	height:53px;
+	margin:0;
+	padding:0;
+	font-size:18px;
+	font-weight:normal;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#CCCCCC;
+	background:url("../images/file.png") top right no-repeat transparent;
+	}
+
+#featured_slide ul#featured_tabs li a span{
+	display:block;
+	margin:10px 0 0 0;
+	padding:0;
+	font-size:12px;
+	font-weight:normal;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	}
+
+#featured_slide ul#featured_tabs li a:hover, #featured_slide ul#featured_tabs li.ui-state-active a{
+	color:#CCCCCC;
+	background-color:transparent;
+	}
+
+#featured_slide ul#featured_tabs li.ui-tabs-selected a{
+	color:#D6D1A9;
+	background-color:transparent;
+	background-image:url("../images/file2.png");
+	}
